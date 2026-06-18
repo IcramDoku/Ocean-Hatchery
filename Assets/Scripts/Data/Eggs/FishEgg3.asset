@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa1bd3b320d03d4a929bf38df307616, type: 3}
+  m_Name: FishEgg3
+  m_EditorClassIdentifier: Assembly-CSharp::EggData
+  level: 3
+  scoreValue: 30
+  sprite: {fileID: -6470460504253458178, guid: 03db960af44b277449a9d365a3be53ad, type: 3}
+  nextEgg: {fileID: 11400000, guid: adf6126b8c7eb0f4694c9a07adda89f2, type: 2}
+  scale: 0.4

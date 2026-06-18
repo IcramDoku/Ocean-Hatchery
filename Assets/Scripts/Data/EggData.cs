@@ -7,4 +7,5 @@ public class EggData : ScriptableObject
     public int scoreValue;
     public Sprite sprite;
     public EggData nextEgg;
+    public float scale = 1f;
 }

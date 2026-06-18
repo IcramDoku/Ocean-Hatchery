@@ -15,5 +15,12 @@ public class Egg : MonoBehaviour
 
         GetComponent<SpriteRenderer>().sprite =
             data.sprite;
+
+        transform.localScale =
+        new Vector3(
+            1f * data.scale,
+            1f * data.scale,
+            1f
+        );
     }
 }

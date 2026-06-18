@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1aa1bd3b320d03d4a929bf38df307616, type: 3}
-  m_Name: TinyFishEgg
+  m_Name: FishEgg5
   m_EditorClassIdentifier: Assembly-CSharp::EggData
-  level: 1
-  scoreValue: 10
-  sprite: {fileID: -2413806693520163455, guid: 723e20871b1c45547ade1fcde029805c, type: 3}
-  nextEgg: {fileID: 11400000, guid: 4d5b7822b8ac1da45b3e6bcbc50754bd, type: 2}
+  level: 5
+  scoreValue: 50
+  sprite: {fileID: 4130640169021434097, guid: f07e85ab38346cd47a4cbbdab23d90c0, type: 3}
+  nextEgg: {fileID: 11400000, guid: c5c1429c034a45348891ef0a773efabe, type: 2}
+  scale: 0.6

@@ -44,6 +44,11 @@ public class MergeEgg : MonoBehaviour
         if (otherMerge != null)
             otherMerge.merged = true;
 
+        // Add score here
+        ScoreManager.Instance.AddScore(
+            egg.data.scoreValue
+        );
+
         if (egg.data.nextEgg == null)
         {
             Destroy(other.gameObject);
