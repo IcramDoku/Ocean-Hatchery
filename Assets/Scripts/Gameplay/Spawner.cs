@@ -10,10 +10,18 @@ public class Spawner : MonoBehaviour
 
     private bool firstSpawn = true;
 
+    // Half-second delay between spawns
+    public float spawnCooldown = 0.5f;
+    private float nextSpawnTime = 0f;
+
     void Update()
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
+            // Don't allow spawning too quickly
+            if (Time.time < nextSpawnTime)
+                return;
+
             Vector3 pos =
                 Camera.main.ScreenToWorldPoint(
                     Mouse.current.position.ReadValue());
@@ -28,7 +36,7 @@ public class Spawner : MonoBehaviour
 
             GameObject eggObj = Instantiate(
                 eggPrefab,
-                new Vector3(pos.x, 4f, 0),
+                new Vector3(pos.x, 3f, 0),
                 Quaternion.identity
             );
 
@@ -48,6 +56,9 @@ public class Spawner : MonoBehaviour
             }
 
             egg.Refresh();
+
+            // Start cooldown
+            nextSpawnTime = Time.time + spawnCooldown;
         }
     }
 }

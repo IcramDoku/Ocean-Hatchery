@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa1bd3b320d03d4a929bf38df307616, type: 3}
   m_Name: FishEgg8
   m_EditorClassIdentifier: Assembly-CSharp::EggData
-  level: 4
-  scoreValue: 40
-  sprite: {fileID: -4178046375966092550, guid: 8529399bacc1cec4f92bd3516dd9d028, type: 3}
-  nextEgg: {fileID: 11400000, guid: 3afd8bfd44bc5e143b9c5ee23b6c8f23, type: 2}
-  scale: 0.9
+  level: 8
+  scoreValue: 80
+  sprite: {fileID: 5079964081180769213, guid: 3f9e73c6704501b4790d8a67a0f4f0d6, type: 3}
+  nextEgg: {fileID: 0}
+  scale: 2.6

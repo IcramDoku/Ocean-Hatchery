@@ -45,9 +45,12 @@ public class MergeEgg : MonoBehaviour
             otherMerge.merged = true;
 
         // Add score here
-        ScoreManager.Instance.AddScore(
-            egg.data.scoreValue
-        );
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.AddScore(
+                egg.data.scoreValue
+            );
+        }
 
         if (egg.data.nextEgg == null)
         {

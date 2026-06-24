@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EggData
   level: 5
   scoreValue: 50
-  sprite: {fileID: 4130640169021434097, guid: f07e85ab38346cd47a4cbbdab23d90c0, type: 3}
+  sprite: {fileID: -3165463626030329247, guid: 1e94496fe84545c46ad402b0208c3da7, type: 3}
   nextEgg: {fileID: 11400000, guid: c5c1429c034a45348891ef0a773efabe, type: 2}
-  scale: 0.6
+  scale: 1.5
