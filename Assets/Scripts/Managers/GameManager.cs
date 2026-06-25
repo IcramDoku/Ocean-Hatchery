@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
     {
         if (ScoreManager.Instance != null)
         {
-            ScoreManager.Instance.Score = 0;
+            ScoreManager.Instance.ResetScore();
         }
 
         PlayerPrefs.Save();

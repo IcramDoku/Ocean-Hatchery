@@ -1,1 +1,4 @@
-app notes
+app notes:
+-add a "GAME OVER" text with reset Button
+-add more pretty background
+-add sound on and off button

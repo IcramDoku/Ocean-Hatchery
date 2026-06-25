@@ -38,6 +38,11 @@ public class MergeEgg : MonoBehaviour
     {
         merged = true;
 
+        if (egg.data.level >= 4)
+        {
+            VibrationManager.Vibrate();
+        }
+
         MergeEgg otherMerge =
             other.GetComponent<MergeEgg>();
 
