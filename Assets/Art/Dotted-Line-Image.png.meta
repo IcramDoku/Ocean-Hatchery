@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 7fc1b3f96fdf8fd4887861b8c7b42237
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7906308625052447030
+    second: Dotted-Line-Image_0
+  - first:
+      213: -5878830900148137884
+    second: Dotted-Line-Image_1
+  - first:
+      213: 7800170926195361199
+    second: Dotted-Line-Image_2
+  - first:
+      213: 1196343793725456237
+    second: Dotted-Line-Image_3
+  - first:
+      213: 8029584561636781303
+    second: Dotted-Line-Image_4
+  - first:
+      213: -5915597206181394263
+    second: Dotted-Line-Image_5
+  - first:
+      213: 9086864500816071601
+    second: Dotted-Line-Image_6
+  - first:
+      213: 5325636420609522440
+    second: Dotted-Line-Image_7
+  - first:
+      213: 7094879540235942547
+    second: Dotted-Line-Image_8
+  - first:
+      213: -2292877845246922810
+    second: Dotted-Line-Image_9
+  - first:
+      213: 6432151189757592490
+    second: Dotted-Line-Image_10
+  - first:
+      213: -7642518355225027815
+    second: Dotted-Line-Image_11
+  - first:
+      213: -6507340434513942045
+    second: Dotted-Line-Image_12
+  - first:
+      213: -2105683217780698039
+    second: Dotted-Line-Image_13
+  - first:
+      213: 6168839360783073377
+    second: Dotted-Line-Image_14
+  - first:
+      213: 1227101158670454272
+    second: Dotted-Line-Image_15
+  - first:
+      213: 4474683152480746001
+    second: Dotted-Line-Image_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dotted-Line-Image_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 601
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace4427e136274290800000000000000
+      internalID: -7906308625052447030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 601
+        width: 83
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460941691723a6ea0800000000000000
+      internalID: -5878830900148137884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5443b5126cf3c60800000000000000
+      internalID: 7800170926195361199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fbf3687544a9010800000000000000
+      internalID: 1196343793725456237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_4
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc2252cd90de6f60800000000000000
+      internalID: 8029584561636781303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_5
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8c343eea397eda0800000000000000
+      internalID: -5915597206181394263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_6
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbcf358e170b1e70800000000000000
+      internalID: 9086864500816071601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_7
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b305dab1678e940800000000000000
+      internalID: 5325636420609522440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_8
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 601
+        width: 83
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a33fff953167260800000000000000
+      internalID: 7094879540235942547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_9
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfa1b87fbf0e20e0800000000000000
+      internalID: -2292877845246922810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_10
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa38b179d67934950800000000000000
+      internalID: 6432151189757592490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_11
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bd8673c0250f590800000000000000
+      internalID: -7642518355225027815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_12
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9a2482a5841b5a0800000000000000
+      internalID: -6507340434513942045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_13
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9441ea2154c17c2e0800000000000000
+      internalID: -2105683217780698039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_14
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 601
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1604ce7f6be1c9550800000000000000
+      internalID: 6168839360783073377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_15
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 601
+        width: 83
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ec50a900a870110800000000000000
+      internalID: 1227101158670454272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dotted-Line-Image_16
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 601
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a3a0a8e94491e30800000000000000
+      internalID: 4474683152480746001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dotted-Line-Image_0: -7906308625052447030
+      Dotted-Line-Image_1: -5878830900148137884
+      Dotted-Line-Image_10: 6432151189757592490
+      Dotted-Line-Image_11: -7642518355225027815
+      Dotted-Line-Image_12: -6507340434513942045
+      Dotted-Line-Image_13: -2105683217780698039
+      Dotted-Line-Image_14: 6168839360783073377
+      Dotted-Line-Image_15: 1227101158670454272
+      Dotted-Line-Image_16: 4474683152480746001
+      Dotted-Line-Image_2: 7800170926195361199
+      Dotted-Line-Image_3: 1196343793725456237
+      Dotted-Line-Image_4: 8029584561636781303
+      Dotted-Line-Image_5: -5915597206181394263
+      Dotted-Line-Image_6: 9086864500816071601
+      Dotted-Line-Image_7: 5325636420609522440
+      Dotted-Line-Image_8: 7094879540235942547
+      Dotted-Line-Image_9: -2292877845246922810
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

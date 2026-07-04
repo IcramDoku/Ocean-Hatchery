@@ -1,0 +1,17 @@
+app notes:
+- Physics-based falling eggs - Done
+- 8 egg evolution levels - Done
+- Random spawning (with first egg guaranteed) - Done
+- Merge system - Done
+- Score system - Done
+- High score saving with PlayerPrefs - Done
+- Game over line - Done
+- Tank boundaries - Done
+- Water background - Done
+- Music - Done
+- Mobile vibration support - Done
+- Different egg sizes and sprites - Done
+-add a "GAME OVER" text with reset Button
+-add more pretty background
+-add sound on and off button
+-publish on Google play store and Apple App store
