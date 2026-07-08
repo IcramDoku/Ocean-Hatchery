@@ -11,20 +11,21 @@ public class Spawner : MonoBehaviour
     private bool firstSpawn = true;
 
     // Half-second delay between spawns
-    public float spawnCooldown = 0.5f;
+    public float spawnCooldown = 1.0f;
     private float nextSpawnTime = 0f;
 
     void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        if ((Touchscreen.current != null &&
+            Touchscreen.current.primaryTouch.press.wasPressedThisFrame) || (Mouse.current != null &&
+             Mouse.current.leftButton.wasPressedThisFrame))
         {
-            // Don't allow spawning too quickly
-            if (Time.time < nextSpawnTime)
-                return;
+            Vector2 touchPos = Touchscreen.current.primaryTouch.position.ReadValue();
+            if (Mouse.current != null &&
+             Mouse.current.leftButton.wasPressedThisFrame) {touchPos = Mouse.current.position.ReadValue();}
 
-            Vector3 pos =
-                Camera.main.ScreenToWorldPoint(
-                    Mouse.current.position.ReadValue());
+            Vector3 pos = Camera.main.ScreenToWorldPoint(
+                new Vector3(touchPos.x, touchPos.y, Camera.main.nearClipPlane));
 
             pos.z = 0;
 
@@ -36,7 +37,7 @@ public class Spawner : MonoBehaviour
 
             GameObject eggObj = Instantiate(
                 eggPrefab,
-                new Vector3(pos.x, 3f, 0),
+                new Vector3(pos.x, 1.6f, 0),
                 Quaternion.identity
             );
 
