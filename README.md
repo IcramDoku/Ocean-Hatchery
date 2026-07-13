@@ -9,7 +9,7 @@ The game is available as a free download on **Google Play** and the **Apple App 
 ## Features
 
 * Simple and engaging merge gameplay
-* Offline play—no internet connection required
+* Offline play, no internet connection required
 * Local high score saving
 * Designed for Android and iOS
 
